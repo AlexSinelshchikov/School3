@@ -10,14 +10,17 @@ public class Animal {
     }
 
     public void makeNoise() {
+
         System.out.println("Шуметь");
     }
 
     public void eat() {
+
         System.out.println("Кушать");
     }
 
     public void sleep() {
+
         System.out.println("Спать");
     }
 

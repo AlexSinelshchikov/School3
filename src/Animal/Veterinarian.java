@@ -3,11 +3,8 @@ package Animal;
 public class Veterinarian extends Animal{
 
     public Veterinarian(String food, String location) {
-        super(food, location);
-    }
 
-    public void treatAnimal() {
-        System.out.println(food + " " + location);
+        super(food, location);
     }
 
     public  void treatAnimal(Animal[] animal) {
@@ -19,6 +16,10 @@ public class Veterinarian extends Animal{
         Animal max = new Dog("Косточка", "Конура", "kind", "home security");
         Animal lightning = new Horse("Трава", "Конюшня", "brown", "race", 60);
         Animal alica = new Cat("Рыбка", "Квартира", "short hair", 6, 12);
+
+        max.sleep();
+        lightning.sleep();
+        alica.sleep();
 
         Animal[] animal = new Animal[3];
         animal[0] = alica;

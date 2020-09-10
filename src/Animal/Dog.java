@@ -14,11 +14,19 @@ public class Dog extends Animal {
 
     @Override
     public void makeNoise() {
+
         System.out.println("Собака сказала Гав");
     }
 
     @Override
     public void eat() {
+
         System.out.println("Собака скушала косточку");
+    }
+
+    @Override
+    public void sleep() {
+
+        System.out.println("Собака спит");
     }
 }
